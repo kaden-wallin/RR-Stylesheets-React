@@ -2,6 +2,37 @@
     height: 400px;
     width: 300px;
     border-radius: 15px;
-    box-shadow: 2px 2px black;
-    
+    box-shadow: 2px 2px 8px black;
+    background: white;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    transition: scale(1);
+}
+
+.card:hover {
+    transition: 0.3s all;
+    box-shadow: 0px 0px 10 rgb(173, 173, 173);
+    background-color: rgb(119, 120, 136);
+    color: white;
+    transform: scale(1.04);
+    font-size: 16px;
+}
+
+.user-image {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+    border: 2px solid black;
+}
+
+.card:hover img {
+    border: 2px solid rgb(173, 173, 173);
+}
+
+.user-bio {
+    width: 80%;
+    margin-top: 30px;
 }
